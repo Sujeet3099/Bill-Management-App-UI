@@ -1,0 +1,6 @@
+=> redux store -|
+  -> holds applications state;
+  -> allows access to state via getState() method;
+  -> allows state to be updated via dispatch(action) method;
+  -> Registers listeners via subscribe(listener) method;
+  -> handles unregistering of listeners via the function returned by subscribe(listener) method;
