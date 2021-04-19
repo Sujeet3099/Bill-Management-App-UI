@@ -1,10 +1,15 @@
 export const SERVER_URL = 'http://localhost:8080/';
 export const ROLL_NUMBER = '1806439'; // Replace <YOUR_ROLL_NUMBER> with your roll number
-export const GET_DATA_URL = 'http://localhost:8080/1806439/getAllInvoice';
-export const GET_SEARCH_DATA_URL = 'http://localhost:8080/1806439/getInvoice';
-export const POST_INVOICE_URL = 'http://localhost:8080/1806439/AddInvoice';
-export const DELETE_INVOICE_URL = 'http://localhost:8080/1806439/DeleteInvoice';
-export const EDIT_INVOICE_URL = 'http://localhost:8080/1806439/EditInvoice';
+export const GET_DATA_URL =
+  'http://localhost:8080/Summer_Internship_Backend/getAllInvoice';
+export const GET_SEARCH_DATA_URL =
+  'http://localhost:8080/Summer_Internship_Backend/getInvoice';
+export const POST_INVOICE_URL =
+  'http://localhost:8080/Summer_Internship_Backend/AddInvoice';
+export const DELETE_INVOICE_URL =
+  'http://localhost:8080/Summer_Internship_Backend/DeleteInvoice';
+export const EDIT_INVOICE_URL =
+  'http://localhost:8080/Summer_Internship_Backend/EditInvoice';
 
 export const columns = [
   { id: 'selectedCheck', label: /*<Checkbox />*/ 'checkboxIcon', minWidth: 20 },
